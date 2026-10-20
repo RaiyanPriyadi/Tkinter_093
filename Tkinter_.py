@@ -24,3 +24,6 @@ for i in range(1, 11):
 
 btn_prediksi = tk.Button(root, text="Hasil Prediksi", command=tampilkan_prediksi)
 btn_prediksi.pack(pady=20)
+
+label_luaran = tk.Label(root, text="Hasil Prediksi: -", font=("Arial", 12))
+label_luaran.pack(pady=5)
